@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <!-- Bootstrap -->
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="cafestyleboot.css">
+    
+  </head>
+  <body>
+
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top">
+      
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">WHERE</a>
+        </li>
+      </ul>
+    </nav>
+    
+
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="ims">
+              <div class="carousel-caption" id="head">
+                  <h3>STACKROUTE CAFE</h3>
+                </div>
+            <img src="img/a2.jpg" alt="Breakfast" >            
+          </div>
+          <div class="carousel-item" id="ims">
+              <div class="carousel-caption" id="head">
+              <h3 >!!WELCOME....HAVE FUN!!</h3>
+            </div>
+            <img src="img/a1.jpg" alt="Lunch"  >
+            
+          </div>
+          <div class="carousel-item" id="ims">
+            <img src="img/a3.jpg" alt="Snacks" >
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div><br>
+    
+    
+    
+    <section id="cover" >
+        <div class="container">
+        <div class="jumbotron" id="first-jumbo" >
+          <div id="cover-caption">
+              
+
+                  <h2 class="display-6"><u>ABOUT THE CAFE</u></h2>
+                  <p>The Cafe is going to launch on 12-12-2018, for the convinience of students,staffs and visitors in reasonable cost. </p>
+                  <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+                  <p><i>"Use products from natu"re for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+          
+                  <p><strong>Opening Hours:</strong> Everyday from 7am to 5pm.</p>
+                </div>
+              </div>
+          </div>  
+    </section>
+    
+    <section class="card-deck">
+      <div class="container">
+          <div class="row" >
+            <div class="card">
+                  <h3 class="card-title">BREAKFAST</h3>
+                  <img src="img/new1.jpg" height="100%" alt="Breakfast">
+                  <p class="card-text">!Starting the day with a healthy breakfast!</p>
+            </div>
+
+            <div class="card">
+                  <h3 class="card-title">LUNCH</h3>
+                  <img src="img/new2.jpg" alt="lunch">
+                  <p class="card-text">!KEEP CALM AND TAKE LUNCH BREAKFAST!</p>
+            </div>
+                
+            <div class="card">
+                    <h3 class="card-title">SNACKS</h3>
+                    <img src="img/new3.jpg" alt="snacks">
+                    <p class="card-text">!Don't go without eating.Grab a healthy snack!</p>
+            </div>
+          </div>
+       </div> 
+    </section>
+    <br>
+
+      <section id="cover">
+          <div class="container">
+          <div class="jumbotron" id="first-jumbo">
+          <div id="cover-caption">
+                  <h2 class="display-6"><u>WHERE TO FIND US</u></h2>
+                  <p>Find us at:
+                      117, Above SBI, Opposite Raheja Arcade,, 7th Block, Koramangala, Bengaluru, Karnataka 560095</p>
+    
+                  <p>FYI! We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                  <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+              </div>
+            </div>
+          
+          </div>
+        </section>
+
+    
+    <div class="d-flex justify-content-center align-items-center container ">
+    <form  action="">
+      <div class="form-group" >
+        <input class="form-control form-control-lg" type="text" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <input class="form-control form-control-lg" type="number" placeholder="How many people">
+      </div>
+      <div class="form-group">
+        <input class="form-control form-control-lg" type="datetime-local" placeholder="Date and time" value="2017-11-16T20:00">
+      </div>
+      <div class="form-group">
+        <input class="form-control form-control-lg" type="text" placeholder="Message \ Special requirements">
+      </div>
+      
+      <button class="btn btn-success btn-lg" type="submit ">SEND MESSAGE</button>
+    </form>
+  </div>
+    
+    <div class="card-footer">
+      <marquee>OPEN FROM 7am To 6pm</marquee>
+    </div>
+
+  </body>
+</html>
